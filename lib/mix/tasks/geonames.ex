@@ -1,13 +1,14 @@
 defmodule Mix.Tasks.Phx.Gen.Geonames do
   @moduledoc """
 
-  Generate Geonames schems and data syncronization 
+  Generate Geonames schems and data syncronization
 
   mix phx.gen.geonames
 
   """
   use Mix.Task
   @city ~w(Geonames.City cities name:string )
+
 
   def run(_args) do
     context =
